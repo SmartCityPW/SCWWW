@@ -1,0 +1,78 @@
+{
+    "current_projects":[
+        {
+            "name":"CPK",
+            "short":"",
+            "long":"",
+            "members": ["","",""]
+        },
+        {
+            "name":"Fotowoltaika",
+            "short":"",
+            "long":"",
+            "members": ["","",""]
+        },
+        {
+            "name":"Lift",
+            "short":"",
+            "long":"",
+            "members": ["","",""]
+        },
+        {
+            "name":"WWAdamo",
+            "short":"",
+            "long":"",
+            "members": ["","",""]
+        }
+    ],
+    "implemented_projects":[
+        {
+            "name":"WasteManage",
+            "short":"",
+            "long":"",
+            "members": ["","",""]
+        },
+        {
+            "name":"BIP",
+            "short":"",
+            "long":"",
+            "members": ["","",""]
+        },
+        {
+            "name":"cocoNET",
+            "short":"",
+            "long":"",
+            "members": ["","",""]
+        },
+        {
+            "name":"SMART univerCITY",
+            "short":"",
+            "long":"",
+            "members": ["","",""]
+        },
+        {
+            "name":"CIVITAS",
+            "short":"",
+            "long":"",
+            "members": ["","",""]
+        },
+        {
+            "name":"REsquare",
+            "short":"",
+            "long":"",
+            "members": ["","",""]
+        },
+        {
+            "name":"warsztaty",
+            "short":"",
+            "long":"",
+            "members": ["","",""]
+        },
+        {
+            "name":"MECO",
+            "short":"",
+            "long":"",
+            "members": ["","",""]
+        }
+    ]
+}
