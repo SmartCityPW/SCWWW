@@ -14,8 +14,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import { useNavigate } from 'react-router-dom';
 
-const pages = ['Strona główna', 'O nas', 'Nasze projekty', 'Timeline', 'Kontakt'];
-const routes = ['/', '/o-nas', '/projekty', '/timeline', '/kontakt'];
+const pages = ['Strona główna', 'O nas', 'Nasze projekty', 'Timeline', 'Kontakt', 'Piknik Naukowy'];
+const routes = ['/', '/o-nas', '/projekty', '/timeline', '/kontakt', '/CityPage'];
 const settings = ['Profil', 'Ustawienia', 'Wyloguj'];
 
 const Header = () => {

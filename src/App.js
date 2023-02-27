@@ -8,6 +8,7 @@ import Timeline from './pages/timeline';
 import Contact from './pages/contact';
 import Login from './pages/login';
 import Error404 from './pages/error404';
+import CityPage from './pages/citypage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/projekty' exact element={<Projects />} />
           <Route path='/timeline' exact element={<Timeline />} />
           <Route path='/kontakt' exact element={<Contact />} />
+          <Route path='/CityPage' exact element={<CityPage />} />
           <Route path='/logowanie' exact element={<Login />} />
           <Route path='*' exact element={<Error404 />} />
         </Routes>
