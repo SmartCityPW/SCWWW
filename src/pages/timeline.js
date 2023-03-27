@@ -10,8 +10,9 @@ function Timeline() {
                 Timeline
             </h1>
             <BasicTimeline></BasicTimeline>
+
         </div>
     );
 }
 
-export default Timeline;
+export default Timeline
