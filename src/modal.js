@@ -1,29 +1,3 @@
-import Modal from '@mui/material/Modal';
-import IconButton from '@mui/material/IconButton';
-import Button from '@mui/material/Button';
-import React, { useState } from 'react';
-import Header from '../components/header';
-import CityModal from '../components/city_modal';
-
-function CityPage() {
-    const [open, setOpen] = useState(false);
-    const handleClose = () => setOpen(false);
-    const handleOpen = () => setOpen(true);
-
-    return (
-        <div className="App">
-            <Header />
-            <h1>
-                CityPage
-            </h1>
-            <Button onClick={handleOpen}>panele fotowoltaiczne</Button>
-            <CityModal></CityModal>
-        </div>
-    ); 
-}
-
-export default CityPage;
-
 // const openModalButtons = document.querySelectorAll('[data-modal-target]')
 // const closeModalButtons = document.querySelectorAll('[data-close-button]')
 // const overlay = document.getElementById('overlay')
@@ -60,4 +34,3 @@ export default CityPage;
 //     modal.classList.remove('active')
 //     overlay.classList.remove('active')
 // }
-
