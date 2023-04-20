@@ -17,7 +17,7 @@ function CityPage() {
                 CityPage
             </h1>
             <Button onClick={handleOpen}>panele fotowoltaiczne</Button>
-            <CityModal></CityModal>
+            {/* <CityModal></CityModal> */}
         </div>
     ); 
 }
