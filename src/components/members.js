@@ -21,36 +21,8 @@ function Members() {
         <GridItem>
         <h2 className={classes.title}>członkowie koła</h2>
         </GridItem>
-        <Person surname={mem.members[0]}></Person>
-        <Person surname={mem.members[1]}></Person>
-        <Person surname={mem.members[2]}></Person>
-        <Person surname={mem.members[3]}></Person>
-        <Person surname={mem.members[4]}></Person>
-        <Person surname={mem.members[5]}></Person>
-        <Person surname={mem.members[6]}></Person>
-        <Person surname={mem.members[7]}></Person>
-        <Person surname={mem.members[8]}></Person>
-        <Person surname={mem.members[9]}></Person>
-        <Person surname={mem.members[10]}></Person>
-        <Person surname={mem.members[11]}></Person>
-        <Person surname={mem.members[12]}></Person>
-        <Person surname={mem.members[13]}></Person>
-        <Person surname={mem.members[14]}></Person>
-        <Person surname={mem.members[15]}></Person>
-        <Person surname={mem.members[16]}></Person>
-        <Person surname={mem.members[17]}></Person>
-        <Person surname={mem.members[18]}></Person>
-        <Person surname={mem.members[19]}></Person>
-        <Person surname={mem.members[20]}></Person>
-        <Person surname={mem.members[21]}></Person>
-        <Person surname={mem.members[22]}></Person>
-        <Person surname={mem.members[23]}></Person>
-        <Person surname={mem.members[24]}></Person>
-        <Person surname={mem.members[25]}></Person>
-        <Person surname={mem.members[26]}></Person>
-        <Person surname={mem.members[27]}></Person>
-        <Person surname={mem.members[28]}></Person>
-        <Person surname={mem.members[29]}></Person>
+        {Array.from(Array(29)).map((_, index) => (
+        <Person surname={mem.members[index]}></Person>))}
         </GridContainer>
     );
   }
