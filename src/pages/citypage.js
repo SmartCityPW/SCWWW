@@ -1,14 +1,12 @@
-import Modal from '@mui/material/Modal';
+//import Modal from '@mui/base/Modal';
 import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
 import React, { useState } from 'react';
 import Header from '../components/header';
-import CityModal from '../components/city_modal';
+import CityModal from '../components/CityModal/CityModal';
 
 function CityPage() {
-    const [open, setOpen] = useState(false);
-    const handleClose = () => setOpen(false);
-    const handleOpen = () => setOpen(true);
+    const [show, setShow] = useState(false)
 
     return (
         <div className="App">
@@ -16,8 +14,8 @@ function CityPage() {
             <h1>
                 CityPage
             </h1>
-            <Button onClick={handleOpen}>panele fotowoltaiczne</Button>
-            {/* <CityModal></CityModal> */}
+            <button onClick={() => setShow(true)}>panele fotowoltaiczne</button>
+            <CityModal onClose={() => setShow(false)} show={show} />
         </div>
     ); 
 }
