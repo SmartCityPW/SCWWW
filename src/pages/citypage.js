@@ -3,10 +3,10 @@ import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
 import React, { useState } from 'react';
 import Header from '../components/header';
-import CityModal from '../components/CityModal/CityModal';
+import StatefulCityModal from '../components/StatefulCityModal/StatefulCityModal';
 
 function CityPage() {
-    const [show, setShow] = useState(false)
+    const [show, setShow] = useState(false) // czy potrzebne ? 
 
     return (
         <div className="App">
@@ -14,24 +14,31 @@ function CityPage() {
             <h1>
                 CityPage
             </h1>
-
+            
             <div className='fotowoltaika'>
-                <button onClick={() => setShow(true)}>panele fotowoltaiczne</button>
-                <CityModal title="Fotowoltaika" onClose={() => setShow(false)} show={show}>
+                <StatefulCityModal title="fotowoltaika" buttonText="panele fotowoltaiczne">
                     <p> Dzień dobry,
                         czy są Państwo zainteresowani instalacją paneli fotowoltaiczych?
                     </p>
-                </CityModal>
+                </StatefulCityModal>
             </div>
 
-            {/* <div className='kolej'>
-                <button onClick={() => setShow(true)}>pociąg</button>
-                <CityModal title="Transport" onClose={() => setShow(false)} show={show}>
+            <div className='transport'>
+                <StatefulCityModal title="transport" buttonText="pociąg">
                     <p>
                         Przedstawimy teraz PLAN NA NAPRAWĘ POLSKIEJ KOLEI
                     </p>
-                </CityModal>
-            </div> */}
+                </StatefulCityModal>
+            </div>
+
+            <div className='dron'>
+                <StatefulCityModal title="dron" buttonText="dron">
+                    <p>
+                        PTAKI VS DRONY 
+                    </p>
+                </StatefulCityModal>
+            </div>
+
         </div>
     ); 
 }
