@@ -14,8 +14,24 @@ function CityPage() {
             <h1>
                 CityPage
             </h1>
-            <button onClick={() => setShow(true)}>panele fotowoltaiczne</button>
-            <CityModal onClose={() => setShow(false)} show={show} />
+
+            <div className='fotowoltaika'>
+                <button onClick={() => setShow(true)}>panele fotowoltaiczne</button>
+                <CityModal title="Fotowoltaika" onClose={() => setShow(false)} show={show}>
+                    <p> Dzień dobry,
+                        czy są Państwo zainteresowani instalacją paneli fotowoltaiczych?
+                    </p>
+                </CityModal>
+            </div>
+
+            {/* <div className='kolej'>
+                <button onClick={() => setShow(true)}>pociąg</button>
+                <CityModal title="Transport" onClose={() => setShow(false)} show={show}>
+                    <p>
+                        Przedstawimy teraz PLAN NA NAPRAWĘ POLSKIEJ KOLEI
+                    </p>
+                </CityModal>
+            </div> */}
         </div>
     ); 
 }
