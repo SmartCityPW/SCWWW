@@ -3,6 +3,7 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
+import { Link } from 'react-router-dom';
 
 import logoLift from "../assets/img/logo/logoLift.png";
 
@@ -45,9 +46,11 @@ const CurrentProjects= () => {
         </Grid>
         {Array.from(Array(6)).map((_, index) => (
         <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'}>
+            <Link to='/info'>
         <Item>
         <img src={logoLift} alt="profile-pic"/>
         </Item>
+            </Link>
         </Grid>
         ))}
       </Grid>
