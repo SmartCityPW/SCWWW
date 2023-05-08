@@ -37,6 +37,24 @@
   }
 }
 
+/* CITY PAGE  */
+.container {
+  position: relative;
+}
+
+/* .margin {
+  height: 100px; /* ustawienie wysokości marginesu 
+} */
+
+.background-image {
+  height: 180vh; /* zrobić tak, żeby działało też responsywnie */
+  background-image: url('citypage-background-1ver.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: top;
+  overflow-y: scroll;
+} 
 
 /* MODAL */
 
