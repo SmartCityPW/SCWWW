@@ -13,13 +13,14 @@ function CityPage() {
         // <div className="App">
         <div className='container'>
             <Header />
+
             <div className="background-image" style={{ backgroundImage: `url(${backgroundImage})` }}> 
                     <h1>
                         CityPage
                     </h1>
 
                     <div className='fotowoltaika'>
-                        <StatefulCityModal title="fotowoltaika" buttonText="panele fotowoltaiczne">
+                        <StatefulCityModal title="fotowoltaika" >
                             <p> 
                                 Dzień dobry,
                                 czy są Państwo zainteresowani instalacją paneli fotowoltaiczych?
@@ -28,7 +29,7 @@ function CityPage() {
                     </div>
 
                     <div className='transport'>
-                        <StatefulCityModal title="transport" buttonText="pociąg">
+                        <StatefulCityModal title="transport" >
                             <p>
                                 Przedstawimy teraz PLAN NA NAPRAWĘ POLSKIEJ KOLEI
                             </p>
@@ -36,7 +37,7 @@ function CityPage() {
                     </div>
 
                     <div className='dron'>
-                        <StatefulCityModal title="dron" buttonText="dron">
+                        <StatefulCityModal title="dron" >
                             <p>
                                 PTAKI VS DRONY 
                             </p>

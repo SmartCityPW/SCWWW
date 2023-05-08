@@ -136,6 +136,17 @@
   border-bottom: 1px solid #eee;
 }
 
+.place-button {
+  width: 40px;
+  height: 40px;
+  background-image: url("pin-icon.png");
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 /* #overlay {
   position: fixed;
   opacity: 0; 
