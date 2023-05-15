@@ -6,6 +6,8 @@ import Grid from '@mui/material/Grid';
 import { Link } from 'react-router-dom';
 
 import logoLift from "../assets/img/logo/logoLift.png";
+import json from '../assets/data/projects.json';
+
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: 'blue',
@@ -44,11 +46,11 @@ const CurrentProjects= () => {
       <Grid item xs={12} display= {'flex'} justifyContent={'center'}>
         <Title>Obecne projekty</Title>
         </Grid>
-        {Array.from(Array(6)).map((_, index) => (
+        {Array.from(Array(json.current_projects.length)).map((_, index) => (
         <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'}>
-            <Link to='/info'>
+            <Link to='/project/lift'>
         <Item>
-        <img src={logoLift} alt="profile-pic"/>
+        <img src={logoLift} alt=""/>
         </Item>
             </Link>
         </Grid>

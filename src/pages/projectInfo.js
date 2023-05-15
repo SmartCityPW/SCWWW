@@ -8,12 +8,12 @@ import errorPageStyle from "../assets/jss/material-kit-pro-react/views/errorPage
 
 const useStyles = makeStyles(errorPageStyle);
 
-function ProjectInfo() {
+function ProjectInfo(index) {
     const classes = useStyles();
     return (
         <div className="App">
             <Header />
-            <AboutProject/>
+            <AboutProject index={index}/>
             <MyFooter classes={classes}/>
         </div>
     );

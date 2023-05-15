@@ -3,6 +3,10 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 
+import logoLift from "../assets/img/logo/logoLift.png";
+import json from '../assets/data/projects.json';
+
+
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: 'blue',
   ...theme.typography.body2,
@@ -15,6 +19,7 @@ const Item = styled(Paper)(({ theme }) => ({
   maxWidth:'250px',
   borderRadius:'10%',
   overflow:'hidden',
+  cursor:'pointer'
 }));
 
 const Title = styled(Paper)(({ theme }) => ({
@@ -25,9 +30,22 @@ const Title = styled(Paper)(({ theme }) => ({
     fontSize:'45px',
     backgroundColor:'transparent',
     boxShadow:'none',
+    transition: 'all 0.3s ease-in-out'
   }));
 
-  const InfoSection = styled(Paper)(({ theme }) => ({
+  const InfoSectionRow = styled(Paper)(({ theme }) => ({
+    display:'flex',
+    flexDirection:'row',
+    width:'80%',
+    textAlign: 'left',
+    color: 'white',
+    fontSize:'14px',
+    backgroundColor:'transparent',
+    boxShadow:'none',
+    margin:'3% 3%',
+  }));
+
+  const InfoSectionColumn = styled(Paper)(({ theme }) => ({
     display:'flex',
     flexDirection:'column',
     width:'80%',
@@ -39,7 +57,7 @@ const Title = styled(Paper)(({ theme }) => ({
     margin:'3% 3%',
   }));
 
-const AboutProject= () => {
+const AboutProject= (index) => {
   return (
     <Box sx={{ 
         width: '100%',
@@ -59,21 +77,31 @@ const AboutProject= () => {
         backgroundColor:'rgba(56,69,117,1)',
         borderRadius:'10px',
         }}>
-    <InfoSection>
-        <h1>LIFT</h1>
-            Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada
-            wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych.
-            Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo
-            skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze
-            szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.
-    </InfoSection>
-    <InfoSection>
-        <h1>Cel</h1>
-            Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi
-            potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich
-            potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi
-            potrzebami w ich codziennych podróżach transportem szynowym.
-    </InfoSection>
+      <div>
+        <InfoSectionRow>
+        <Item>
+        <img src={logoLift} alt="profile-pic"/>
+        </Item>
+        <InfoSectionColumn> 
+        <h1>{json.current_projects[0].name}</h1> {json.current_projects[0].description}
+        </InfoSectionColumn>
+      </InfoSectionRow>
+      <InfoSectionColumn>
+      <h1>CEL</h1> {json.current_projects[0].goal}
+      </InfoSectionColumn>
+      <InfoSectionColumn>
+      <h1>DZIAŁANIA</h1>
+      {Array.from(Array(json.current_projects[0].events.length)).map((_, ind) => (
+  <p>{json.current_projects[0].events[ind]}</p>
+    ))}
+      </InfoSectionColumn>
+      <InfoSectionColumn>
+      <h1>SKŁAD</h1> 
+      {Array.from(Array(json.current_projects[0].team.length)).map((_, ind) => (
+  <p>{json.current_projects[0].team[ind]}</p>
+    ))}
+      </InfoSectionColumn>
+      </div>
     </Box>
       </Box>
   );

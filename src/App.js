@@ -21,8 +21,8 @@ function App() {
           <Route path='/timeline' exact element={<Timeline />} />
           <Route path='/kontakt' exact element={<Contact />} />
           <Route path='/logowanie' exact element={<Login />} />
-          <Route path='/info' exact element={<ProjectInfo />} />
-          <Route path='*' exact element={<Error404 />} />
+          <Route path='/project/lift' exact element={<ProjectInfo index={0} />} />
+          {/* <Route path='*' exact element={<Error404 />} /> */}
         </Routes>
       </Router>
     </div>
