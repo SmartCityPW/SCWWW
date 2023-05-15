@@ -5,8 +5,8 @@ import Box from "@mui/material/Box";
 import { useNavigate } from "react-router-dom";
 import logoSmartCity from "../assets/img/logo_smart_city_grey.png";
 
-const pages = ["O nas", "Nasze projekty", "Timeline", "Kontakt"];
-const routes = ["/o-nas", "/projekty", "/timeline", "/kontakt"];
+const pages = ["O nas", "Nasze projekty", "Timeline", "Kontakt", "Piknik Naukowy"];
+const routes = ["/o-nas", "/projekty", "/timeline", "/kontakt", "/city-page"];
 
 const MyFooter = ({ classes }) => {
   const navigate = useNavigate();

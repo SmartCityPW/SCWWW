@@ -5,9 +5,15 @@ import React, { useState } from 'react';
 import Header from '../components/header';
 import StatefulCityModal from '../components/StatefulCityModal/StatefulCityModal';
 import backgroundImage from '../citypage-background-1ver.png';
+import MyFooter from "../components/footer.js";
+import { makeStyles } from "@material-ui/core/styles";
+import errorPageStyle from "../assets/jss/material-kit-pro-react/views/errorPageStyles.js";
+
+const useStyles = makeStyles(errorPageStyle);
 
 function CityPage() {
     const [show, setShow] = useState(false) // czy potrzebne ? 
+    const classes = useStyles();
 
     return (
         // <div className="App">
@@ -101,6 +107,7 @@ function CityPage() {
 
                     
                 </div>
+                <MyFooter classes={classes}/>
         </div>
         // </div>
     ); 
