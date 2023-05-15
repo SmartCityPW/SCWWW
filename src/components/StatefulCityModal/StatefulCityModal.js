@@ -10,7 +10,7 @@ const StatefulCityModal = props => {
 
     return (
         <>
-            <button class="place-button" onClick={toggleModal}><i class="fas fa-plus"></i> </button>
+            <button class="place-button" onClick={toggleModal}></button>
             <CityModal show={show} onClose={toggleModal} title={props.title}>
                 {props.children}
             </CityModal>

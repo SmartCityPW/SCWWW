@@ -28,21 +28,78 @@ function CityPage() {
                         </StatefulCityModal>
                     </div>
 
-                    <div className='transport'>
-                        <StatefulCityModal title="transport" >
+                    <div className='hydroponika'>
+                        <StatefulCityModal title="hydroponika" >
+                            <p> 
+                                Dzień dobry,
+                                czy są Państwo zainteresowani instalacją paneli fotowoltaiczych?
+                            </p>
+                        </StatefulCityModal>
+                    </div>
+
+                    <div className='waste-manage'>
+                        <StatefulCityModal title="waste-manage" >
+                            <p> 
+                                Dzień dobry,
+                                czy są Państwo zainteresowani instalacją paneli fotowoltaiczych?
+                            </p>
+                        </StatefulCityModal>
+                    </div>
+
+                    <div className='ogrod'>
+                        <StatefulCityModal title="ogrod" >
+                            <p> 
+                                Dzień dobry,
+                                czy są Państwo zainteresowani instalacją paneli fotowoltaiczych?
+                            </p>
+                        </StatefulCityModal>
+                    </div>
+
+                    <div className='szkola'>
+                        <StatefulCityModal title="szkola" >
+                            <p> 
+                                Dzień dobry,
+                                czy są Państwo zainteresowani instalacją paneli fotowoltaiczych?
+                            </p>
+                        </StatefulCityModal>
+                    </div>
+
+                    <div className='wiezowiec'>
+                        <StatefulCityModal title="wiezowiec" >
+                            <p> 
+                                Dzień dobry,
+                                czy są Państwo zainteresowani instalacją paneli fotowoltaiczych?
+                            </p>
+                        </StatefulCityModal>
+                    </div>
+
+                    <div className='metro'>
+                        <StatefulCityModal title="metro" >
                             <p>
                                 Przedstawimy teraz PLAN NA NAPRAWĘ POLSKIEJ KOLEI
                             </p>
                         </StatefulCityModal>
                     </div>
 
-                    <div className='dron'>
-                        <StatefulCityModal title="dron" >
+                    <div className='samolot'>
+                        <StatefulCityModal title="samolot" >
                             <p>
                                 PTAKI VS DRONY 
                             </p>
                         </StatefulCityModal>
                     </div>
+
+                    
+                    <div className='parking'>
+                        <StatefulCityModal title="parking" >
+                            <p> 
+                                Dzień dobry,
+                                czy są Państwo zainteresowani instalacją paneli fotowoltaiczych?
+                            </p>
+                        </StatefulCityModal>
+                    </div>
+
+                    
                 </div>
         </div>
         // </div>
