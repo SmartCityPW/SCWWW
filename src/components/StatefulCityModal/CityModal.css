@@ -1,0 +1,84 @@
+/* IT WORKS ONLY IF IT IS IN APP.CSS */ 
+
+/*
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: blue;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  /* 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 3px solid blue;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: rgb(14, 119, 211);
+  width: 300px;
+  max-width: 80%;
+  /* height: 300px;
+  max-height: 80%; *
+}
+/*
+.modal.active{
+  transform: translate(-50%, -50%) scale(1);
+}
+*
+
+.modal-content{
+  width: 500px;
+  background-color: blue;
+}
+
+.modal-header, .modal-footer{
+  padding: 10px 15px;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid blue; *
+}
+
+.modal-title{
+  margin: 0;
+  /* font-size: 1.25rem;
+  font-weight: bold; *
+}
+
+/* .modal-footer .close-button{
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+} *
+
+.modal-body{
+  padding: 10px 15px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+/* #overlay {
+  position: fixed;
+  opacity: 0; 
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+} 
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+} 
+*/

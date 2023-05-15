@@ -13,9 +13,15 @@ import MenuItem from "@mui/material/MenuItem";
 import { useNavigate } from "react-router-dom";
 import logoSmartCity from "../assets/img/logo_smart_city_grey.png";
 
+<<<<<<< HEAD
 const pages = ["O nas", "Nasze projekty", "Timeline", "Kontakt"];
 const routes = ["/o-nas", "/projekty", "/timeline", "/kontakt"];
 const settings = ["Profil", "Ustawienia", "Wyloguj"];
+=======
+const pages = ['Strona główna', 'O nas', 'Nasze projekty', 'Timeline', 'Kontakt', 'Piknik Naukowy'];
+const routes = ['/', '/o-nas', '/projekty', '/timeline', '/kontakt', '/CityPage'];
+const settings = ['Profil', 'Ustawienia', 'Wyloguj'];
+>>>>>>> city-page
 
 const Header = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
