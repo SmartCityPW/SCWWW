@@ -24,11 +24,12 @@ function CityPage() {
                         {/* <h1> CityPage </h1> */}
 
                 <img className="background-image" src={backgroundImage}></img>        
-                        <div className='fotowoltaika' style={{position: 'absolute', top:`${0.21*imgHeight}px`, left:`${0.21*imgWidth}px`}}>
-                            <StatefulCityModal title="fotowoltaika" >
+                        <div className='Energia' style={{position: 'absolute', top:`${0.21*imgHeight}px`, left:`${0.21*imgWidth}px`}}>
+                            <StatefulCityModal title="Energia w mieście" >
                                 <p> 
-                                    Dzień dobry,
-                                    czy są Państwo zainteresowani instalacją paneli fotowoltaiczych?
+                                    <h3> Nasz projekt: Fotowoltaika </h3>
+                                    <text> Projekt Fotowoltaika ma na celu stworzenie narzędzia umożliwiającego ocenę możliwości umieszczenia paneli słonecznych na dachach wybranych budynków komunalnych przyczyniając się do szerzenia idei pozyskiwania energii z OZE (odnawialnych źródeł energii) w miastach.  Zespół pracuje nad stworzeniem interfejsu, który będzie wykonywał analizy dla wybranych obszarów Warszawy z wykorzystaniem danych open source.
+                                Więcej o projekcie: https://github.com/FotowoltaikaSC/solar-estimator </text>
                                 </p>
                             </StatefulCityModal>
                         {/* </div> */}
@@ -105,7 +106,7 @@ function CityPage() {
                         </div> */}
 
                         
-                    </div>
+                        </div>
                     {/* <MyFooter classes={classes}/> */}
             </div>
         </div>

@@ -40,7 +40,8 @@
 /* CITY PAGE  */
 .container {
   position: relative;
-  padding-top: 50px;
+  padding-top: 10%;
+  padding-left: 7%;
 }
 
 /* .margin {
@@ -59,9 +60,9 @@
   transition: all 0.3s ease; */
   background-image: url('citypage-background.png');
   background-size: contain;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 100vw; 
+  height: 105vw; 
   /* height: 1200px; */
   display: flex;
   justify-content: center;
@@ -150,10 +151,10 @@
 }
 
 .place-button {
-  width: 8vh;
-  height: 8vh;
+  width: 5vw;
+  height: 5vw;
   display: inline-block;
-  background-image: url("pin-icon.png");
+  background-image: url("placeholder.png");
   background-size: contain;
   background-color: transparent;
   border: none;
