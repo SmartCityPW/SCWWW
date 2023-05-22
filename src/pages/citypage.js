@@ -117,6 +117,7 @@ function useImageSize() {
         imgWidth: undefined,
         imgHeight: undefined,
     });
+    const image = document.querySelector('.background-image')
     useEffect(() => {
         const image = document.querySelector('.background-image')
         function handleResize() {
@@ -128,7 +129,7 @@ function useImageSize() {
       window.addEventListener("resize", handleResize);
       handleResize();
       return () => window.removeEventListener("resize", handleResize);
-    }, []); 
+    }, ); 
     return imageSize;
   }
 
