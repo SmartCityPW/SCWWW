@@ -12,10 +12,23 @@ import LoginButton from "./loginButton";
 import MenuItem from "@mui/material/MenuItem";
 import { useNavigate } from "react-router-dom";
 import logoSmartCity from "../assets/img/logo_smart_city_grey.png";
+import { createTheme } from "@mui/material/styles";
 
-const pages = ["O nas", "Nasze projekty", "Timeline", "Kontakt", 'Piknik Naukowy'];
+const pages = ["O nas", "Nasze projekty", "Timeline", "Kontakt", "Piknik Naukowy"];
 const routes = ["/o-nas", "/projekty", "/timeline", "/kontakt", "/city-page"];
 const settings = ["Profil", "Ustawienia", "Wyloguj"];
+const theme = createTheme({
+  breakpoints: {
+    values: {
+      xs: 0,
+      xs34: 340,
+      sm: 600,
+      md: 900,
+      lg: 1200,
+      xl: 1536,
+    },
+  },
+});
 
 const Header = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -44,7 +57,7 @@ const Header = () => {
         width: "auto",
         boxSizing: "border-box",
         borderRadius: "50px",
-        background: "hsla(0, 0%, 100%, .30)",
+        background: "hsla(0, 0%, 100%, .40)",
         backdropFilter: "blur(5px)",
         margin: ".5rem .5rem 0 .5rem",
       }}
@@ -54,10 +67,10 @@ const Header = () => {
           disableGutters
           sx={{
             display: { md: "flex" },
-            justifyContent: { md: "space-between" },
+            justifyContent: "space-between",
           }}
         >
-          <Box sx={{ mr: 2, display: { xs: "none", md: "flex" } }}>
+          <Box sx={{ mr: 2, display: { xs: "none", md: "block" } }}>
             <img
               height="75rem"
               style={{ filter: "brightness(10%)", cursor: "pointer" }}
@@ -77,7 +90,7 @@ const Header = () => {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="inherit"
+              style={{ color: "black" }}
             >
               <MenuIcon />
             </IconButton>
@@ -109,10 +122,12 @@ const Header = () => {
           <Box
             sx={{
               display: { xs: "flex", md: "none" },
+              height: { xs34: "75px", xs: "60px" },
             }}
+            theme={theme}
           >
             <img
-              height="75rem"
+              height="inherit"
               style={{ filter: "brightness(10%)", cursor: "pointer" }}
               src={logoSmartCity}
               alt="Smart City logo"
