@@ -30,19 +30,19 @@ const MyFooter = ({ classes }) => {
       <Box
         sx={{
           display: "grid",
-          "grid-template-columns": { md10: "repeat(3, auto)", md: "repeat(2, auto)" },
-          "grid-template-rows": { sm: "repeat(2, auto)" },
-          "row-gap": { md10: "1rem", xs: "2rem" },
-          "margin-bottom": { xs: "2rem" },
+          gridTemplateColumns: { md10: "repeat(3, auto)", md: "repeat(2, auto)" },
+          gridTemplateRows: { sm: "repeat(2, auto)" },
+          rowGap: { md10: "1rem", xs: "2rem" },
+          marginBottom: { xs: "2rem" },
         }}
         theme={theme}
       >
         <Box
           sx={{
             display: "flex",
-            "flex-direction": "column",
-            "align-items": { sm55: "start", xs: "center" },
-            "text-align": { sm55: "left", xs: "center" },
+            flexDirection: "column",
+            alignItems: { sm55: "start", xs: "center" },
+            textAlign: { sm55: "left", xs: "center" },
           }}
           theme={theme}
         >
@@ -54,7 +54,7 @@ const MyFooter = ({ classes }) => {
             onClick={() => navigate("/")}
           />
           <Box>
-            <p style={{ color: "#000000", "font-size": "15px" }}>
+            <p style={{ color: "#000000", fontSize: "15px" }}>
               Politechnika Warszawska
               <br />
               Wydział Inżynierii Lądowej (pok. 308)
@@ -67,21 +67,21 @@ const MyFooter = ({ classes }) => {
         <Box
           sx={{
             display: "grid",
-            "grid-template-columns": {
+            gridTemplateColumns: {
               lg: `repeat(${pages.length}, auto)`,
               md10: `repeat(${Math.ceil(pages.length / 2)}, auto)`,
               sm55: `repeat(${pages.length}, auto)`,
               xs29: "repeat(2, auto)",
               xs: "auto",
             },
-            "grid-template-rows": { lg: "auto", md10: "repeat(2, 2rem)" },
-            "grid-row": { md10: "1", sm55: "2" },
-            "grid-column": { md10: "2", sm55: "1/3" },
-            "justify-self": "center",
-            "align-self": "end",
-            "align-items": "end",
-            "gap": { lg: "0", md10: "1rem" },
-            "text-align": { xs29: "left", xs: "center" },
+            gridTemplateRows: { lg: "auto", md10: "repeat(2, 2rem)" },
+            gridRow: { md10: "1", sm55: "2" },
+            gridColumn: { md10: "2", sm55: "1/3" },
+            justifySelf: "center",
+            alignSelf: "end",
+            alignItems: "end",
+            gap: { lg: "0", md10: "1rem" },
+            textAlign: { xs29: "left", xs: "center" },
           }}
           theme={theme}
         >
@@ -100,8 +100,8 @@ const MyFooter = ({ classes }) => {
         <Box
           sx={{
             display: "flex",
-            "align-items": "flex-end",
-            "justify-content": { sm55: "right", xs: "center" },
+            alignItems: "flex-end",
+            justifyContent: { sm55: "right", xs: "center" },
           }}
           theme={theme}
         >
@@ -117,7 +117,7 @@ const MyFooter = ({ classes }) => {
         </Box>
       </Box>
       <Box>
-        <p style={{ color: "#444444", "font-size": "13px" }}>&copy; MKN Smart City PW {1900 + new Date().getYear()}</p>
+        <p style={{ color: "#444444", fontSize: "13px" }}>&copy; MKN Smart City PW {1900 + new Date().getYear()}</p>
       </Box>
     </Footer>
   );
