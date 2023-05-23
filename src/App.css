@@ -40,7 +40,8 @@
 /* CITY PAGE  */
 .container {
   position: relative;
-  padding-top: 50px;
+  padding-top: 10%;
+  padding-left: 7%;
 }
 
 /* .margin {
@@ -59,14 +60,15 @@
   transition: all 0.3s ease; */
   background-image: url('citypage-background.png');
   background-size: contain;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 100vw; 
+  height: 105vw; 
   /* height: 1200px; */
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  transition: all 0.1s ease;
 } 
 
 /* MODAL */
@@ -84,6 +86,7 @@
   opacity: 0;
   transition: all 0.3s ease-in-out;
   pointer-events: none;
+  z-index: 10000;
   /* 
   top: 50%;
   left: 50%;
@@ -110,50 +113,64 @@
 }
 
 .modal-content{
+  border-radius: 2rem;
   width: 500px;
-  background-color: aliceblue;
+  background-color:whitesmoke;
   transform: translateY(-200px);
   transition: all 0.3s ease-in-out;
+  font: caption;
+  text-align: left;
+  padding-left: 5vw;
+  padding-right: 2vw;
 }
 
 .modal.show .modal-content {
   transform: translateY(0);
 }
 
-.modal-header, .modal-footer{
-  padding: 10px;
+.modal-footer{
+  padding: 3vh;
   /* display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid blue; */
 }
 
-.modal-title{
-  margin: 0;
-  /* font-size: 1.25rem;
-  font-weight: bold; */
+.modal-header {
+  padding-top: 3vh;
+  padding-left: 1vw;
 }
 
-/* .modal-footer .close-button{
+.modal-title{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  text-align: left; 
+  font-size: 1.5rem;
+}
+
+.modal-footer .close-button {
   cursor: pointer;
   border: none;
-  background: none;
+  border-radius: 1.5rem;
+  background-color: rgb(52, 52, 202);
   outline: none;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: bold;
-}  */
+  color: whitesmoke;
+  padding: 0.5rem;
+}  
 
 .modal-body{
   padding: 10px;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border: none;
 }
 
 .place-button {
-  width: 8vh;
-  height: 8vh;
+  width: 5vw;
+  height: 5vw;
   display: inline-block;
-  background-image: url("pin-icon.png");
+  background-image: url("placeholder.png");
   background-size: contain;
   background-color: transparent;
   border: none;
@@ -170,14 +187,14 @@
   /* transform: translate(50%, 50%); */
 /* } */ 
 
-.hydroponika {
+/* .hydroponika {
   position: relative;
   left: 0%;
   top: 50%;
   right: 0;
   bottom: 0;
   transform: translate(-50%, -50%);
-}
+} */
 /* #overlay {
   position: fixed;
   opacity: 0; 
