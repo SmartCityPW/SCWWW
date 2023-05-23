@@ -40,6 +40,7 @@
 /* CITY PAGE  */
 .container {
   position: relative;
+  padding-top: 50px;
 }
 
 /* .margin {
@@ -47,13 +48,25 @@
 } */
 
 .background-image {
-  height: 180vh; /* zrobić tak, żeby działało też responsywnie */
-  background-image: url('citypage-background-1ver.png');
-  background-size:contain;
+  /* height: 200vh; /* zrobić tak, żeby działało też responsywnie /
+  background-image: url('citypage-background.png');
+  background-size:cover;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+  background-attachment:local;
   background-position: top;
   overflow-y: scroll;
+  position: relative;
+  transition: all 0.3s ease; */
+  background-image: url('citypage-background.png');
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100vw; 
+  /* height: 1200px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 } 
 
 /* MODAL */
@@ -137,31 +150,33 @@
 }
 
 .place-button {
-  width: 40px;
-  height: 40px;
+  width: 8vh;
+  height: 8vh;
+  display: inline-block;
   background-image: url("pin-icon.png");
-  background-size: cover;
+  background-size: contain;
   background-color: transparent;
   border: none;
   outline: none;
   position:absolute;
   cursor: pointer;
+  transition: all 0.1s ease;
 }
 
-.fotowoltaika {
-  position: relative;
-  left: -25%;
+/* .fotowoltaika {
+  position: absolute;
+  left: 0;
   top: 0;
-  right: 0;
-  bottom: 0; 
-}
+  /* transform: translate(50%, 50%); */
+/* } */ 
 
 .hydroponika {
   position: relative;
-  left: -10%;
-  top: 5%;
+  left: 0%;
+  top: 50%;
   right: 0;
   bottom: 0;
+  transform: translate(-50%, -50%);
 }
 /* #overlay {
   position: fixed;
