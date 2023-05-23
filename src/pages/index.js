@@ -37,12 +37,12 @@ function Index() {
 
   return (
     <Box className="App" bgcolor="#aeaeae">
+      <Header />
       <Hero image={heroImage}>
-        <Header />
         <Container
           sx={{
             display: "flex",
-            height: "70vh",
+            height: "100vh",
             justifyContent: "center",
             alignItems: "center",
           }}
