@@ -52,14 +52,17 @@ const Header = () => {
 
   return (
     <AppBar
-      position="sticky"
       sx={{
-        width: "auto",
+        position: "fixed",
+        width: "97%",
         boxSizing: "border-box",
         borderRadius: "50px",
         background: "hsla(0, 0%, 100%, .40)",
         backdropFilter: "blur(5px)",
-        margin: ".5rem .5rem 0 .5rem",
+        marginTop: ".5rem",
+        top: "0",
+        left: "50%",
+        transform: "translate(-50%, 0)",
       }}
     >
       <Container>
