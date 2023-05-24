@@ -38,7 +38,10 @@ function CityPage() {
                                 <p> 
                                     <h4> Nasz projekt: Fotowoltaika </h4>
                                     <text> Projekt Fotowoltaika ma na celu stworzenie narzędzia umożliwiającego ocenę możliwości umieszczenia paneli słonecznych na dachach wybranych budynków komunalnych przyczyniając się do szerzenia idei pozyskiwania energii z OZE (odnawialnych źródeł energii) w miastach.  Zespół pracuje nad stworzeniem interfejsu, który będzie wykonywał analizy dla wybranych obszarów Warszawy z wykorzystaniem danych open source.
-                                Więcej o projekcie: https://github.com/FotowoltaikaSC/solar-estimator </text>
+                                    <a href="https://github.com/FotowoltaikaSC/solar-estimator" target="_blank" className={classes.block}>
+                                        Przeczytaj więcej o projekcie...
+                                    </a>
+                                    </text>
                                 </p>
                             </StatefulCityModal>
                         </div> 
