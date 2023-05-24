@@ -180,34 +180,40 @@
   transition: all 0.1s ease;
 }
 
-/* .fotowoltaika {
-  position: absolute;
-  left: 0;
-  top: 0;
-  /* transform: translate(50%, 50%); */
-/* } */ 
+.caption {
+  font-family: 'Helvetica Neue', sans-serif; 
+  letter-spacing: -1px; 
+  text-align: left; 
+  font-size: 1.25rem;
+  padding-top: 20vh;
+  padding-bottom: 5vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: center;
+}
 
-/* .hydroponika {
-  position: relative;
-  left: 0%;
-  top: 50%;
-  right: 0;
-  bottom: 0;
-  transform: translate(-50%, -50%);
-} */
-/* #overlay {
-  position: fixed;
-  opacity: 0; 
-  transition: 200ms ease-in-out;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, .5);
-  pointer-events: none;
-} 
+.kim-jestesmy, .co-robimy, .cel {
+  /* font-family: 'Helvetica Neue', sans-serif;  */
+  letter-spacing: -1px; 
+  text-align: left; 
+  font-size: 1.25rem;
+  padding-top: 20vh;
+  padding-bottom: 5vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding: 5vw;
+  text-align: left;
+}
 
-#overlay.active {
-  opacity: 1;
-  pointer-events: all;
-} */
+.kim-jestesmy {
+  background-color: rgb(143, 143, 143);
+}
+
+.co-robimy {
+  color:#282c34;
+}
+
+.cel {
+  background-color: #282c34;
+  color:rgb(143, 143, 143);
+}

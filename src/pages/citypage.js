@@ -19,6 +19,15 @@ function CityPage() {
     return (
         <div className="App">
             <Header /> 
+            <div className="caption">
+                <text>
+                Jesteśmy kołem naukowym Smart City PW. <br></br> 
+                <br></br>
+                Chcesz się dowiedzieć, jakie innowacje wprowadzilibyśmy do każdego miasta w Polsce? <br></br>
+                <br></br>
+                <b>Naciśnij pinezki!</b>
+                </text>
+            </div>
             <div className='container'>
                 {/* <div className="background-image" style={{ backgroundImage: `url(${backgroundImage})` }}>  */}
                         {/* <h1> CityPage </h1> */}
