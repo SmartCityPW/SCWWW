@@ -6,11 +6,14 @@ import Grid from '@mui/material/Grid';
 import { Link } from 'react-router-dom';
 
 import logoLift from "../assets/img/logo/logoLift.png";
+import logoCpk from "../assets/img/logo/logoCpk.png";
+import logoFotowoltaika from "../assets/img/logo/logoFotowoltaika.png";
+import logoHydro from "../assets/img/logo/logoHydro.png";
 import json from '../assets/data/projects.json';
 
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: 'blue',
+  backgroundColor: '#aeaeae',
   ...theme.typography.body2,
   padding: theme.spacing(0),
   textAlign: 'center',
@@ -35,6 +38,7 @@ const Title = styled(Paper)(({ theme }) => ({
 
 const CurrentProjects= () => {
   return (
+    
     <Box sx={{ 
         display:'flex',
         width:'80%',
@@ -46,7 +50,15 @@ const CurrentProjects= () => {
       <Grid item xs={12} display= {'flex'} justifyContent={'center'}>
         <Title>Obecne projekty</Title>
         </Grid>
-        {Array.from(Array(json.current_projects.length)).map((_, index) => (
+        {/* {Array.from(Array(json.current_projects.length)).map((_, index) => (
+        <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'}>
+            <Link to='/project/info'>
+        <Item>
+        <img src={logoLift} alt=""/>
+        </Item>
+            </Link>
+        </Grid>
+        ))} */}
         <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'}>
             <Link to='/project/lift'>
         <Item>
@@ -54,7 +66,30 @@ const CurrentProjects= () => {
         </Item>
             </Link>
         </Grid>
-        ))}
+
+        <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'}>
+            <Link to='/project/cpk'>
+        <Item>
+        <img src={logoCpk} alt=""/>
+        </Item>
+            </Link>
+        </Grid>
+
+        <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'}>
+            <Link to='/project/fotowoltaika'>
+        <Item>
+        <img src={logoFotowoltaika} alt=""/>
+        </Item>
+            </Link>
+        </Grid>
+
+        <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'}>
+            <Link to='/project/hydroponika'>
+        <Item>
+        <img src={logoHydro} alt=""/>
+        </Item>
+            </Link>
+        </Grid>
       </Grid>
       </Box>
   );

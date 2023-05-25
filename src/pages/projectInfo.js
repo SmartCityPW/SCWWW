@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from "@material-ui/core/styles";
 
+import Box from "@mui/material/Box";
 import Header from '../components/header';
 import MyFooter from "../components/footer.js";
 import AboutProject from "../components/AboutProject";
@@ -12,9 +13,11 @@ function ProjectInfo(index) {
     const classes = useStyles();
     return (
         <div className="App">
+             <Box className="App" bgcolor="#aeaeae">
             <Header />
             <AboutProject index={index}/>
             <MyFooter classes={classes}/>
+            </Box>
         </div>
     );
 }

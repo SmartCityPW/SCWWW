@@ -10,7 +10,7 @@ import CurrentProjects from './CurrentProjects';
 
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: 'blue',
+  backgroundColor: '#AEAEAE',
   ...theme.typography.body2,
   padding: theme.spacing(0),
   textAlign: 'center',
@@ -27,12 +27,13 @@ const AllProjects= () => {
   return (
     <Box sx={{ 
         width: '100%',
+        height: '100%',
         display: 'flex',
         flexDirection:'column',
         justifyContent:'center',
         alignItems:'center',
-        background: 'rgb(56,69,117)',
-        background:'linear-gradient(180deg, rgba(56,69,117,1) 0%, rgba(31,37,74,1) 35%, rgba(10,10,36,1) 100%)', 
+        background: '#aeaeae',
+        background:'linear-gradient(180deg, #aeaeae 0%, rgba(192,192,192,1) 35%, rgba(23,27,31,1) 100%)', 
         }}>
       <CurrentProjects></CurrentProjects>
     <FinishedProjects></FinishedProjects>

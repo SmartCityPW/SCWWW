@@ -2,10 +2,18 @@ import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
+import { makeStyles } from "@material-ui/core/styles";
+import { Link } from 'react-router-dom';
 
 import logoLift from "../assets/img/logo/logoLift.png";
 import json from '../assets/data/projects.json';
 import { Button } from '@mui/material';
+import Header from '../components/header';
+import MyFooter from "../components/footer.js";
+import errorPageStyle from "../assets/jss/material-kit-pro-react/views/errorPageStyles.js";
+
+
+const useStyles = makeStyles(errorPageStyle);
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -71,9 +79,13 @@ const Title = styled(Paper)(({ theme }) => ({
     margin:'3% 3%',
   }));
 
-const AboutProject= (index) => {
+const AboutLift= (index) => {
+    const classes = useStyles();
   return (
-    <Box sx={{ 
+    <div className="App">
+             <Box className="App" bgcolor="#aeaeae">
+            <Header />
+            <Box sx={{ 
         width: '100%',
         display: 'flex',
         flexDirection:'column',
@@ -100,14 +112,18 @@ const AboutProject= (index) => {
         <img src={logoLift} alt="profile-pic"/>
         </Item>
         <InfoSectionColumn> 
-        <h1>{json.current_projects[0].name}</h1> {json.current_projects[0].description} <ButtonReturn>ZAMKNIJ</ButtonReturn>
+        <h1>{json.current_projects[0].name}</h1> {json.current_projects[0].description} <ButtonReturn>ZAMKNIJ<Link to='/projekty'></Link></ButtonReturn>
       
         </InfoSectionColumn>
       </InfoSectionRow>
       </div>
     </Box>
       </Box>
+            <MyFooter classes={classes}/>
+            </Box>
+        </div>
+    
   );
 }
 
-export default AboutProject;
+export default AboutLift;

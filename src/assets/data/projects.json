@@ -12,7 +12,7 @@
         {
             "name":"CPK",
             "logo":"logoLift.jpg",
-            "description":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
+            "description":"Spóźnienia pociągów, czy długie postoje na trasie to szczególnie częste doświadczenia podróżnych w naszym kraju. Także Warszawa, będąca jedną z najszybciej rozwijających się metropolii  w Europie, nie jest wolna od problemów komunikacyjnych – autobusy bywając przepełnione, opóźnione, a nawet w ogóle nie przyjeżdżają. Problemami są także remonty dworców powodujące zamieszanie i zamęt wśród podróżnych. W projekcie CPK, odwołując się do rządowych planów rewolucji polskiego transportu, chcemy przyjrzeć się z bliska problemom pasażerów i ludzi wykluczonych transportowo oraz poszukać na ich rozwiązania.",
             "goal":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "events":["jedna konferencja", "druga konferencja"],
             "team": ["Bartosz Wiktorzak","Mikołaj Domagalski","Jerzy Jastrzębiec-Jankowski", "Gabriela Szewczuk"],
@@ -28,27 +28,9 @@
             "pics": ["obrazek.jpg", "obrazek2.jpg"]
         },
         {
-            "name":"LIFT",
+            "name":"HYDROPONIKA",
             "logo":"logoLift.jpg",
-            "description":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
-            "goal":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
-            "events":["jedna konferencja", "druga konferencja"],
-            "team": ["Bartosz Wiktorzak","Mikołaj Domagalski","Jerzy Jastrzębiec-Jankowski", "Gabriela Szewczuk"],
-            "pics": ["obrazek.jpg", "obrazek2.jpg"]
-        },
-        {
-            "name":"CPK",
-            "logo":"logoLift.jpg",
-            "description":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
-            "goal":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
-            "events":["jedna konferencja", "druga konferencja"],
-            "team": ["Bartosz Wiktorzak","Mikołaj Domagalski","Jerzy Jastrzębiec-Jankowski", "Gabriela Szewczuk"],
-            "pics": ["obrazek.jpg", "obrazek2.jpg"]
-        },
-        {
-            "name":"FOTOWOLTAIKA",
-            "logo":"logoLift.jpg",
-            "description":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
+            "description":"Projekt Hydroponika powstał, aby zwrócić uwagę na temat roślinności w miastach oraz alternatywnych metod jej hodowli. Naszym głównym celem jest stworzenie projektu i budowa ogrodu, w którym glebę zastąpiłaby woda. Wykorzystano by tam także  inteligentne systemy czujników i oświetlenia oraz nowatorski i ekologiczny system pozyskania energii elektrycznej mogący zostać wykorzystany na szerszą skalę w miastach.",
             "goal":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "events":["jedna konferencja", "druga konferencja"],
             "team": ["Bartosz Wiktorzak","Mikołaj Domagalski","Jerzy Jastrzębiec-Jankowski", "Gabriela Szewczuk"],
@@ -59,7 +41,7 @@
         {
             "name":"WasteManage",
             "logo":"logoLift.jpg",
-            "description":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
+            "description":"W ramach realizacji projektu „Sierpc 2.0 – Rozwiązania EcoSmart z zakresu zarządzania miastem” członkowie koła opracowują system zarządzania zbiórką odpadów komunalnych oraz ultradźwiękowe czujniki wypełnienia kontenerów na odpady. Rozwiązanie wdrożone w mieście Sierpce ma na celu zoptymalizowanie procesu odbioru odpadów, a tym samym ograniczenie zużycia paliwa i poprawę jakości powietrza w mieście.",
             "goal":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "events":["jedna konferencja", "druga konferencja"],
             "team": ["Bartosz Wiktorzak","Mikołaj Domagalski","Jerzy Jastrzębiec-Jankowski", "Gabriela Szewczuk"],
