@@ -19,7 +19,7 @@ function CityPage() {
     return (
         <div className="App">
             <Header /> 
-            <div className="caption">
+            <div className="caption" style={{paddingTop:`${0.15*imgHeight}px`}}>
                 <text>
                 Jesteśmy kołem naukowym Smart City PW. <br></br> 
                 <br></br>
