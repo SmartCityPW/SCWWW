@@ -15,7 +15,7 @@ import logoSmartCity from "../assets/img/logo_smart_city_grey.png";
 import { createTheme } from "@mui/material/styles";
 
 const pages = [ /* "O nas",  "Nasze projekty",  "Timeline", "Kontakt", */ "Piknik Naukowy"];
-const routes = [/* "/o-nas",  "/projekty",  "/timeline", "/kontakt", */ "/city-page"];
+const routes = [/* "/o-nas",  "/projekty",  "/timeline", "/kontakt", */ "/miasto-przyszlosci"];
 const settings = ["Profil", "Ustawienia", "Wyloguj"];
 const theme = createTheme({
   breakpoints: {
