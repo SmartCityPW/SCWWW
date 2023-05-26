@@ -56,7 +56,7 @@ const CurrentProjects= () => {
         display:'flex',
         width:'80%',
         flexDirection:'column',
-        marginTop:'2%',
+        marginTop:'13%',
         marginBottom:'2%',
         }}>
       <Grid container rowSpacing={12} columnSpacing={12} justifyContent={'space-around'} alignItems={'center'}>
