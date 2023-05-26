@@ -103,11 +103,11 @@ const AboutLift= (index) => {
         }}>
     <Box sx={{ 
         display:'flex',
+        marginTop:'13%',
         width:'80%',
         minHeight: '80%',
         padding:'15px',
         flexDirection:'column',
-        marginTop:'5%',
         marginBottom:'5%',
         backgroundColor:'transparent',
         borderRadius:'10px',

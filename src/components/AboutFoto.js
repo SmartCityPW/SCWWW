@@ -104,7 +104,7 @@ const AboutFoto= (index) => {
         minHeight: '80%',
         padding:'15px',
         flexDirection:'column',
-        marginTop:'5%',
+        marginTop:'13%',
         marginBottom:'5%',
         backgroundColor:'transparent',
         borderRadius:'10px',
