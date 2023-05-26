@@ -40,7 +40,7 @@
     "finished_projects":[
         {
             "name":"WasteManage",
-            "logo":"logoLift.jpg",
+            "logo":"logoWaste",
             "description":"W ramach realizacji projektu „Sierpc 2.0 – Rozwiązania EcoSmart z zakresu zarządzania miastem” członkowie koła opracowują system zarządzania zbiórką odpadów komunalnych oraz ultradźwiękowe czujniki wypełnienia kontenerów na odpady. Rozwiązanie wdrożone w mieście Sierpce ma na celu zoptymalizowanie procesu odbioru odpadów, a tym samym ograniczenie zużycia paliwa i poprawę jakości powietrza w mieście.",
             "goal":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "events":["jedna konferencja", "druga konferencja"],
@@ -49,7 +49,7 @@
         },
         {
             "name":"BIP",
-            "logo":"logoLift.jpg",
+            "logo":"logoBip",
             "description":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "goal":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "events":["jedna konferencja", "druga konferencja"],
@@ -58,7 +58,7 @@
         },
         {
             "name":"cocoNET",
-            "logo":"logoLift.jpg",
+            "logo":"logoCocoNet",
             "description":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "goal":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "events":["jedna konferencja", "druga konferencja"],
@@ -67,7 +67,7 @@
         },
         {
             "name":"SMART univerCITY",
-            "logo":"logoLift.jpg",
+            "logo":"logoUnivercity",
             "description":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "goal":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "events":["jedna konferencja", "druga konferencja"],
@@ -76,7 +76,7 @@
         },
         {
             "name":"CIVITAS",
-            "logo":"logoLift.jpg",
+            "logo":"logoCivitas",
             "description":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "goal":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "events":["jedna konferencja", "druga konferencja"],
@@ -85,7 +85,7 @@
         },
         {
             "name":"REsquare",
-            "logo":"logoLift.jpg",
+            "logo":"logoResquare",
             "description":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "goal":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "events":["jedna konferencja", "druga konferencja"],
@@ -94,7 +94,7 @@
         },
         {
             "name":"warsztaty",
-            "logo":"logoLift.jpg",
+            "logo":"logoWarsztaty",
             "description":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "goal":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "events":["jedna konferencja", "druga konferencja"],
@@ -103,7 +103,7 @@
         },
         {
             "name":"MECO",
-            "logo":"logoLift.jpg",
+            "logo":"logoMeco",
             "description":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "goal":"Poruszanie się po labiryncie podziemnych korytarzy Metra Warszawskiego to nie lada wyzwanie dla osób ze szczególnymi potrzebami, niepełnosprawnych, niewidomych. Windy nie zawsze są dobrze oznakowane i widoczne, a droga do nich potrafi być bardzo skomplikowana. Członkowie projektu LIFT tworzą rozwiązanie wspomagające osoby ze szczególnymi potrzebami w ich codziennych podróżach transportem szynowym.",
             "events":["jedna konferencja", "druga konferencja"],

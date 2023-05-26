@@ -194,3 +194,30 @@
   opacity: 1;
   pointer-events: all;
 } */
+
+/* projects-page ---------*/
+.overlay{
+  transition: 100ms ease-in-out;
+  opacity:1;
+}
+
+.overlay:hover{
+  opacity:0.4;
+}
+
+.overlay-text{
+  transition: 100ms ease-in-out;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background:transparent;
+  width: 100%;
+  color:white;
+  padding:10px;
+  text-align: center;
+  font-weight: 600;
+}
+.background{
+  background:linear-gradient(180deg, rgba(23,27,31,1) 0%, rgba(23,27,31,1) 50%,  #aeaeae 60%,#aeaeae 100%);
+}

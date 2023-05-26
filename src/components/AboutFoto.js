@@ -1,16 +1,15 @@
-import * as React from 'react';
+import React, { useEffect, useState } from "react";
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import { makeStyles } from "@material-ui/core/styles";
-
+import { Link } from 'react-router-dom';
 
 import logoFotowoltaika from "../assets/img/logo/logoFotowoltaika.png";
 import json from '../assets/data/projects.json';
 import { Button } from '@mui/material';
 import Header from '../components/header';
 import MyFooter from "../components/footer.js";
-import AboutProject from "../components/AboutProject";
 import errorPageStyle from "../assets/jss/material-kit-pro-react/views/errorPageStyles.js";
 const useStyles = makeStyles(errorPageStyle);
 
@@ -41,7 +40,7 @@ const Title = styled(Paper)(({ theme }) => ({
   }));
 
   const ButtonReturn = styled(Paper)(({ theme }) => ({
-    width:'15%',
+    width:'50px',
     marginTop:'20px',
     padding:'3px',
     backgroundColor:'transparent',
@@ -49,7 +48,8 @@ const Title = styled(Paper)(({ theme }) => ({
     textAlign: 'center',
     color: 'white',
     fontSize:'12px',
-    textAlign:'center'
+    textAlign:'center',
+    textDecoration:'none',
   }));
 
   const InfoSectionRow = styled(Paper)(({ theme }) => ({
@@ -74,44 +74,52 @@ const Title = styled(Paper)(({ theme }) => ({
     fontSize:'14px',
     backgroundColor:'transparent',
     boxShadow:'none',
-    margin:'3% 3%',
+    margin:'0% 3%',
   }));
 
 const AboutFoto= (index) => {
     const classes = useStyles();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
+    const windowWidth = useWindowWidth();
+
   return (
     <div className="App">
     <Box className="App" bgcolor="#aeaeae">
    <Header />
-    <Box sx={{ 
+   <Box sx={{ 
         width: '100%',
         display: 'flex',
         flexDirection:'column',
         justifyContent:'center',
         alignItems:'center',
         textAlign:'justify',
-        background: '#aeaeae',
-        background:'linear-gradient(180deg, #aeaeae 0%, rgba(192,192,192,1) 35%, rgba(23,27,31,1) 100%)', 
         }}>
     <Box sx={{ 
         display:'flex',
         width:'80%',
         minHeight: '80%',
+        padding:'15px',
         flexDirection:'column',
         marginTop:'5%',
         marginBottom:'5%',
         backgroundColor:'transparent',
         borderRadius:'10px',
+        backgroundColor:'rgba(23,27,31,1)',
         }}>
+          
           
       <div>
         <InfoSectionRow>
-        <Item>
+        {windowWidth > 900 ? <Item>
         <img src={logoFotowoltaika} alt="profile-pic"/>
-        </Item>
+        </Item> : ""}
         <InfoSectionColumn> 
-        <h1>{json.current_projects[3].name}</h1> {json.current_projects[3].description} <ButtonReturn>ZAMKNIJ</ButtonReturn>
-      
+        <h1>{json.current_projects[2].name}</h1> {json.current_projects[2].description} 
+        <Link to='/projekty'><ButtonReturn>ZAMKNIJ</ButtonReturn></Link>
         </InfoSectionColumn>
       </InfoSectionRow>
       </div>
@@ -121,6 +129,19 @@ const AboutFoto= (index) => {
             </Box>
         </div>
   );
+}
+
+function useWindowWidth() {
+  const [windowWidth, setWindowWidth] = useState(undefined);
+  useEffect(() => {
+    function handleResize() {
+      setWindowWidth(window.innerWidth);
+    }
+    window.addEventListener("resize", handleResize);
+    handleResize();
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  return windowWidth;
 }
 
 export default AboutFoto;

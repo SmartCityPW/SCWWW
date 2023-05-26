@@ -12,13 +12,11 @@ const useStyles = makeStyles(errorPageStyle);
 function Projects() {
     const classes = useStyles();
     return (
-        <div className="App">
-             <Box className="App" bgcolor="#aeaeae">
+             <div className='background'>
             <Header />
             <AllProjects/>
             <MyFooter classes={classes}/>
-            </Box>
-        </div>
+            </div>
     );
 }
 

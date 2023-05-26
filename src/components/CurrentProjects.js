@@ -4,12 +4,15 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+
 
 import logoLift from "../assets/img/logo/logoLift.png";
 import logoCpk from "../assets/img/logo/logoCpk.png";
 import logoFotowoltaika from "../assets/img/logo/logoFotowoltaika.png";
 import logoHydro from "../assets/img/logo/logoHydro.png";
 import json from '../assets/data/projects.json';
+import StatefulCityModal from './StatefulCityModal/StatefulCityModal';
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -37,6 +40,16 @@ const Title = styled(Paper)(({ theme }) => ({
   }));
 
 const CurrentProjects= () => {
+    const [isHovered, setIsHovered]=useState(false);
+
+
+    const handleMouseEnter=()=>{
+      setIsHovered(true);
+    };
+    
+    const handleMouseLeave=()=>{
+      setIsHovered(false);
+    };
   return (
     
     <Box sx={{ 
@@ -47,7 +60,7 @@ const CurrentProjects= () => {
         marginBottom:'2%',
         }}>
       <Grid container rowSpacing={12} columnSpacing={12} justifyContent={'space-around'} alignItems={'center'}>
-      <Grid item xs={12} display= {'flex'} justifyContent={'center'}>
+      <Grid item xs={12} display= {'flex'} justifyContent={'center'} >
         <Title>Obecne projekty</Title>
         </Grid>
         {/* {Array.from(Array(json.current_projects.length)).map((_, index) => (
@@ -59,34 +72,34 @@ const CurrentProjects= () => {
             </Link>
         </Grid>
         ))} */}
-        <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'}>
+        <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <Link to='/project/lift'>
         <Item>
-        <img src={logoLift} alt=""/>
+        <img src={logoLift} alt="" className={isHovered ? 'overlay' :''}/>
         </Item>
             </Link>
         </Grid>
 
-        <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'}>
+        <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <Link to='/project/cpk'>
         <Item>
-        <img src={logoCpk} alt=""/>
+        <img src={logoCpk} alt="" className={isHovered ? 'overlay' :''}/>
         </Item>
             </Link>
         </Grid>
 
-        <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'}>
+        <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <Link to='/project/fotowoltaika'>
         <Item>
-        <img src={logoFotowoltaika} alt=""/>
+        <img src={logoFotowoltaika} alt="" className={isHovered ? 'overlay' :''}/>
         </Item>
             </Link>
         </Grid>
 
-        <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'}>
+        <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <Link to='/project/hydroponika'>
         <Item>
-        <img src={logoHydro} alt=""/>
+        <img src={logoHydro} alt="" className={isHovered ? 'overlay' :''}/>
         </Item>
             </Link>
         </Grid>
