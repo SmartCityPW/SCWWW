@@ -70,14 +70,14 @@ function Index() {
       <div className="co-robimy">
                 <h4> Co robimy? </h4>
                 <text>
-                  Nasze projekty związane są z ideą Smart City - Inteligentnych Miast. Mają one na celu ułatwienie życia mieszkańców Warszawy oraz innych miast w Polsce. Nieobce są nam nowe technologie, zrónoważony rozwój czy koncepcje urbanistyczne. Współpracujemy z władzami miast oraz innymi firmami, aby nasz działania mogły realnie zmieniać świat. 
+                  Nasze projekty związane są z ideą Smart City - Inteligentnych Miast. Mają one na celu ułatwienie życia mieszkańcom Warszawy oraz innych miast w Polsce. Nieobce są nam nowe technologie, zrónoważony rozwój czy koncepcje urbanistyczne. Współpracujemy z władzami miast oraz innymi firmami, aby nasze działania mogły realnie zmieniać świat. 
                 </text>
       </div>
 
       <div className="cel">
                 <h4> Nasz cel </h4>
                 <text>
-                  Wierzymy, że możemy mieć realny wpływ na funkcjonowanie przestrzeni, w której żyjemy oraz, że przyszłość ma miejsce już teraz. Chcemy, aby nasze miasta były bardziej dostęne, zrónoważone i nowoczesne. Poszukujemy, więc odpowiedzi na wiele problemów współczesnych mieszkańców, na które odpowiadamy SMART rozwiązaniami.                
+                  Wierzymy, że możemy mieć realny wpływ na funkcjonowanie przestrzeni, w której żyjemy, a przyszłość ma miejsce już teraz. Chcemy, aby nasze miasta były bardziej dostępne, zrónoważone i nowoczesne. Poszukujemy więc odpowiedzi na wiele problemów współczesnych mieszkańców, na które odpowiadamy SMART rozwiązaniami.                
                 </text>
       </div>
 

@@ -19,7 +19,7 @@ function CityPage() {
     return (
         <div className="App">
             <Header /> 
-            <div className="caption" style={{paddingTop:`${0.15*imgHeight}px`}}>
+            <div className="caption1" style={{paddingTop:`${0.15*imgHeight}px`}}>
                 <text>
                 Jesteśmy kołem naukowym Smart City PW. <br></br> 
                 <br></br>
@@ -197,7 +197,18 @@ function CityPage() {
                                 </p>
                             </StatefulCityModal>
                         </div>
-
+                <div className="caption1">
+                    <text>
+                    Jeśli chcecie ciekawi innych wiadomości o tematyce miast przyszłości oraz naszych działań w drodze do nich, zapraszamy do śledzenia naszej strony na Facebooku!
+                    <a href="https://www.facebook.com/smartcitypw" target="_blank" className={classes.block} style={{color:`#00479B`}}>
+                        <h3> MKN Smart City PW </h3>
+                    </a> 
+                    <br></br>
+                    </text>
+                </div>
+                <text style={{fontSize:`0.75rem`}}>
+                    Powyższa grafika została utworzona przy pomocy materiałów graficznych ze strony freepik.com
+                </text>
                 <MyFooter classes={classes}/>
             </div>
         </div>

@@ -118,7 +118,11 @@ const AboutFoto= (index) => {
         <img src={logoFotowoltaika} alt="profile-pic"/>
         </Item> : ""}
         <InfoSectionColumn> 
-        <h1>{json.current_projects[2].name}</h1> {json.current_projects[2].description} 
+        <h1>{json.current_projects[2].name}</h1> 
+        Projekt Fotowoltaika ma na celu stworzenie narzędzia umożliwiającego ocenę możliwości umieszczenia paneli słonecznych na dachach wybranych budynków komunalnych przyczyniając się do szerzenia idei pozyskiwania energii z OZE (odnawialnych źródeł energii) w miastach.  Zespół pracuje nad stworzeniem interfejsu, który będzie wykonywał analizy dla wybranych obszarów Warszawy z wykorzystaniem danych open source.
+                                    <a href="https://github.com/FotowoltaikaSC/solar-estimator" target="_blank" className={classes.block}>
+                                        Przeczytaj więcej o projekcie...
+                                    </a>
         <Link to='/projekty'><ButtonReturn>ZAMKNIJ</ButtonReturn></Link>
         </InfoSectionColumn>
       </InfoSectionRow>
