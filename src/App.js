@@ -26,7 +26,7 @@ function App() {
           <Route path='/projekty' exact element={<Projects />} />
           <Route path='/timeline' exact element={<Timeline />} />
           <Route path='/kontakt' exact element={<Contact />} />
-          <Route path='/city-page' exact element={<CityPage />} />
+          <Route path='/miasto-przyszlosci' exact element={<CityPage />} />
           <Route path='/logowanie' exact element={<Login />} />
           <Route path='/project/lift' exact element={<AboutLift index={0} />} />
           <Route path='/project/cpk' exact element={<AboutCpk index={1} />} />

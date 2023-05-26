@@ -40,7 +40,8 @@
 /* CITY PAGE  */
 .container {
   position: relative;
-  padding-top: 50px;
+  padding-top: 10%;
+  padding-left: 7%;
 }
 
 /* .margin {
@@ -59,14 +60,15 @@
   transition: all 0.3s ease; */
   background-image: url('citypage-background.png');
   background-size: contain;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 100vw; 
+  height: 105vw; 
   /* height: 1200px; */
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  transition: all 0.1s ease;
 } 
 
 /* MODAL */
@@ -84,6 +86,7 @@
   opacity: 0;
   transition: all 0.3s ease-in-out;
   pointer-events: none;
+  z-index: 10000;
   /* 
   top: 50%;
   left: 50%;
@@ -107,53 +110,70 @@
 .modal.show {
   opacity: 1;
   pointer-events: visible;
+  display: flex;
+  position: fixed;
+  align-items: center;
 }
 
 .modal-content{
+  border-radius: 2rem;
   width: 500px;
-  background-color: aliceblue;
+  background-color:whitesmoke;
   transform: translateY(-200px);
   transition: all 0.3s ease-in-out;
+  font: caption;
+  text-align: left;
+  padding-left: 5vw;
+  padding-right: 2vw;
 }
 
 .modal.show .modal-content {
   transform: translateY(0);
 }
 
-.modal-header, .modal-footer{
-  padding: 10px;
+.modal-footer{
+  padding: 3vh;
   /* display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid blue; */
 }
 
-.modal-title{
-  margin: 0;
-  /* font-size: 1.25rem;
-  font-weight: bold; */
+.modal-header {
+  padding-top: 3vh;
+  padding-left: 1vw;
 }
 
-/* .modal-footer .close-button{
+.modal-title{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  text-align: left; 
+  font-size: 1.5rem;
+}
+
+.modal-footer .close-button {
   cursor: pointer;
   border: none;
-  background: none;
+  border-radius: 1.5rem;
+  background-color: #00479B;
   outline: none;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: bold;
-}  */
+  color: whitesmoke;
+  padding: 0.5rem;
+}  
 
 .modal-body{
   padding: 10px;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border: none;
 }
 
 .place-button {
-  width: 8vh;
-  height: 8vh;
+  width: 5vw;
+  height: 5vw;
   display: inline-block;
-  background-image: url("pin-icon.png");
+  background-image: url("placeholder.png");
   background-size: contain;
   background-color: transparent;
   border: none;
@@ -163,32 +183,16 @@
   transition: all 0.1s ease;
 }
 
-/* .fotowoltaika {
-  position: absolute;
-  left: 0;
-  top: 0;
-  /* transform: translate(50%, 50%); */
-/* } */ 
-
-.hydroponika {
-  position: relative;
-  left: 0%;
-  top: 50%;
-  right: 0;
-  bottom: 0;
-  transform: translate(-50%, -50%);
+.caption {
+  font-family: 'Helvetica Neue', sans-serif; 
+  letter-spacing: -1px; 
+  text-align: left; 
+  font-size: 1.25rem;
+  padding-bottom: 5vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: center;
 }
-/* #overlay {
-  position: fixed;
-  opacity: 0; 
-  transition: 200ms ease-in-out;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, .5);
-  pointer-events: none;
-} 
 
 #overlay.active {
   opacity: 1;
@@ -220,4 +224,29 @@
 }
 .background{
   background:linear-gradient(180deg, rgba(23,27,31,1) 0%, rgba(23,27,31,1) 50%,  #aeaeae 60%,#aeaeae 100%);
+}
+  .kim-jestesmy, .co-robimy, .cel {
+  /* font-family: 'Helvetica Neue', sans-serif;  */
+  letter-spacing: -1px; 
+  text-align: left; 
+  font-size: 1.25rem;
+  padding-top: 20vh;
+  padding-bottom: 5vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding: 5vw;
+  text-align: left;
+}
+
+.kim-jestesmy {
+  background-color: rgb(143, 143, 143);
+}
+
+.co-robimy {
+  color:#282c34;
+}
+
+.cel {
+  background-color: #282c34;
+  color:rgb(143, 143, 143);
 }

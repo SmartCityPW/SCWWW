@@ -18,7 +18,7 @@ const CityModal = props => {
                     {props.children}
                 </div>
                 <div className="modal-footer">
-                    <button onClick={props.onClose} className="close-button">Close</button>
+                    <button onClick={props.onClose} className="close-button"> Zamknij </button>
                 </div>
             </div>
         </div>
