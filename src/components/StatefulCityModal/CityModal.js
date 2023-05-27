@@ -3,14 +3,10 @@
 import React from "react";
 
 const CityModal = props => {
-    // if (!props.show) {
-    //     return null
-    // }
 
     return (
         <div className={`modal ${props.show ? 'show' : ''}`}>
             <div className="modal-content">
-                {/* <button>Modal</button> */}
                 <div className="modal-header">
                     <h4 className="modal-title">{props.title}</h4>
                 </div>

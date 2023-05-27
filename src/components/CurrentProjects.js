@@ -21,7 +21,7 @@ const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(0),
   textAlign: 'center',
   color: theme.palette.text.secondary,
-  minWidth:'250px', //logo graphics dimensions 
+  minWidth:'250px', 
   minHeight:'250px',
   maxHeight:'250px',
   maxWidth:'250px',
@@ -63,15 +63,6 @@ const CurrentProjects= () => {
       <Grid item xs={12} display= {'flex'} justifyContent={'center'} >
         <Title>Obecne projekty</Title>
         </Grid>
-        {/* {Array.from(Array(json.current_projects.length)).map((_, index) => (
-        <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'}>
-            <Link to='/project/info'>
-        <Item>
-        <img src={logoLift} alt=""/>
-        </Item>
-            </Link>
-        </Grid>
-        ))} */}
         <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <Link to='/project/lift'>
         <Item>

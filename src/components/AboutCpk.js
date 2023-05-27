@@ -20,7 +20,7 @@ const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(0),
   textAlign: 'center',
   color: theme.palette.text.secondary,
-  minWidth:'250px', //logo graphics dimensions 
+  minWidth:'250px', 
   minHeight:'250px',
   maxHeight:'250px',
   maxWidth:'250px',

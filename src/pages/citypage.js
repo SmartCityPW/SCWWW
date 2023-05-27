@@ -1,4 +1,3 @@
-//import Modal from '@mui/base/Modal';
 import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
 import React, { useState, useEffect } from 'react';
@@ -12,7 +11,7 @@ import errorPageStyle from "../assets/jss/material-kit-pro-react/views/errorPage
 const useStyles = makeStyles(errorPageStyle);
 
 function CityPage() {
-    const [show, setShow] = useState(false) // czy potrzebne ? 
+    const [show, setShow] = useState(false) 
     const classes = useStyles();
     const {imgWidth, imgHeight} = useImageSize();
     console.log(`${imgWidth}, ${imgHeight}`)
@@ -29,9 +28,6 @@ function CityPage() {
                 </text>
             </div>
             <div className='container'>
-                {/* <div className="background-image" style={{ backgroundImage: `url(${backgroundImage})` }}>  */}
-                        {/* <h1> CityPage </h1> */}
-
                 <img className="background-image" src={backgroundImage}></img>        
                         <div className='energia' style={{position: 'absolute', top:`${0.08*imgHeight}px`, left:`${0.30*imgWidth}px`}}>
                             <StatefulCityModal title="Energia w mieście" >
@@ -199,7 +195,7 @@ function CityPage() {
                         </div>
                 <div className="caption1">
                     <text>
-                    Jeśli chcecie ciekawi innych wiadomości o tematyce miast przyszłości oraz naszych działań w drodze do nich, zapraszamy do śledzenia naszej strony na Facebooku!
+                    Jeśli jesteście ciekawi innych wiadomości o tematyce miast przyszłości oraz naszych działań w drodze do nich, zapraszamy do śledzenia naszej strony na Facebooku!
                     <a href="https://www.facebook.com/smartcitypw" target="_blank" className={classes.block} style={{color:`#00479B`}}>
                         <h3> MKN Smart City PW </h3>
                     </a> 

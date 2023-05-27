@@ -67,17 +67,6 @@ const handleMouseLeave=()=>{
       <Grid item xs={12} display= {'flex'} justifyContent={'center'}>
         <Title>Zakończone projekty</Title>
         </Grid>
-        {/* {Array.from(Array(8)).map((_, index) => (
-        <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-        <Item>
-        <img src={json.finished_projects[index].logo} alt="profile-pic" className={isHovered ? 'overlay' :''} />
-          <div className={isHovered ? 'overlay-text' :''}>
-            <p>{json.finished_projects[index].name}</p>
-          </div>
-      
-        </Item>
-        </Grid>
-        ))} */}
 
 <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         <Item>

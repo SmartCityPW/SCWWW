@@ -37,33 +37,18 @@
   }
 }
 
-/* CITY PAGE  */
 .container {
   position: relative;
   padding-top: 10%;
   padding-left: 7%;
 }
 
-/* .margin {
-  height: 100px; /* ustawienie wysokości marginesu 
-} */
-
 .background-image {
-  /* height: 200vh; /* zrobić tak, żeby działało też responsywnie /
-  background-image: url('citypage-background.png');
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-attachment:local;
-  background-position: top;
-  overflow-y: scroll;
-  position: relative;
-  transition: all 0.3s ease; */
   background-image: url('citypage-background.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   height: 105vw; 
-  /* height: 1200px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,7 +56,6 @@
   transition: all 0.1s ease;
 } 
 
-/* MODAL */
 
 .modal {
   position: fixed;
@@ -87,25 +71,7 @@
   transition: all 0.3s ease-in-out;
   pointer-events: none;
   z-index: 10000;
-  /* 
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  transition: 200ms ease-in-out;
-  border: 3px solid blue;
-  border-radius: 10px;
-  z-index: 10;
-  background-color: rgb(14, 119, 211);
-  width: 300px;
-  max-width: 80%;
-  /* height: 300px;
-  max-height: 80%; */
 }
-/*
-.modal.active{
-  transform: translate(-50%, -50%) scale(1);
-}
-*/
 
 .modal.show {
   opacity: 1;
@@ -133,10 +99,6 @@
 
 .modal-footer{
   padding: 3vh;
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid blue; */
 }
 
 .modal-header {
@@ -197,9 +159,8 @@
 #overlay.active {
   opacity: 1;
   pointer-events: all;
-} */
+}
 
-/* projects-page ---------*/
 .overlay{
   transition: 100ms ease-in-out;
   opacity:1;
@@ -226,7 +187,6 @@
   background:linear-gradient(180deg, rgba(23,27,31,1) 0%, rgba(23,27,31,1) 50%,  #aeaeae 60%,#aeaeae 100%);
 }
   .kim-jestesmy, .co-robimy, .cel {
-  /* font-family: 'Helvetica Neue', sans-serif;  */
   letter-spacing: -1px; 
   text-align: left; 
   font-size: 1.25rem;
