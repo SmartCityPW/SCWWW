@@ -1,5 +1,12 @@
 # SCWWW
+Strona internetowa koła naukowego Smart City PW.
+Zakładka "Miasto Przyszłości" przedstawiająca wizualizację inteligentnego miasta
+jest projektem wystawianym na 26. Pikniku Naukowym Polskiego Radia i CNK. 
 
+Projekt strony jest tworzony przez studentów Politechniki Warszawskiej
+i członków koła.
+
+-------------------------------------------------------------------------------------------------
 Co na sam początek:
 
 0. Pobierz node i npm ze strony https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
