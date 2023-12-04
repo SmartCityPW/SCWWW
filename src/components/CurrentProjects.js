@@ -12,7 +12,7 @@ import logoCpk from "../assets/img/logo/logoCpk.png";
 import logoFotowoltaika from "../assets/img/logo/logoFotowoltaika.png";
 import logoHydro from "../assets/img/logo/logoHydro.png";
 import json from '../assets/data/projects.json';
-import StatefulCityModal from './StatefulCityModal/StatefulCityModal';
+import StatefulCityModal from './ProjectModal/StatefulCityModal';
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -27,6 +27,7 @@ const Item = styled(Paper)(({ theme }) => ({
   maxWidth:'250px',
   borderRadius:'10%',
   overflow:'hidden',
+  position: 'relative'
 }));
 
 const Title = styled(Paper)(({ theme }) => ({
@@ -64,35 +65,52 @@ const CurrentProjects= () => {
         <Title>Obecne projekty</Title>
         </Grid>
         <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <Link to='/project/lift'>
+       
         <Item>
         <img src={logoLift} alt="" className={isHovered ? 'overlay' :''}/>
+        <StatefulCityModal title="Projekt Lift" >
+            <p> 
+            <text> {json.current_projects[0].description} </text>
+            <h4>Skład: {json.current_projects[0].team} </h4>
+            </p>
+        </StatefulCityModal>
         </Item>
-            </Link>
         </Grid>
 
         <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <Link to='/project/cpk'>
         <Item>
         <img src={logoCpk} alt="" className={isHovered ? 'overlay' :''}/>
+        <StatefulCityModal title="Projekt CPK" >
+            <p> 
+            <text> {json.current_projects[1].description} </text>
+            <h4>Skład: {json.current_projects[1].team} </h4>
+            </p>
+        </StatefulCityModal>
         </Item>
-            </Link>
         </Grid>
 
         <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <Link to='/project/fotowoltaika'>
         <Item>
         <img src={logoFotowoltaika} alt="" className={isHovered ? 'overlay' :''}/>
+        <StatefulCityModal title="Projekt Fotowoltaika" >
+            <p> 
+            <text> {json.current_projects[2].description} </text>
+            <h4>Skład: {json.current_projects[2].team} </h4>
+            </p>
+        </StatefulCityModal>
         </Item>
-            </Link>
         </Grid>
 
         <Grid item xs={12} md={4} display= {'flex'} justifyContent={'center'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <Link to='/project/hydroponika'>
         <Item>
         <img src={logoHydro} alt="" className={isHovered ? 'overlay' :''}/>
+        <StatefulCityModal title="Projekt Hydroponika" >
+            <p> 
+            <text> {json.current_projects[3].description} </text>
+            <h4>Skład: {json.current_projects[3].team} </h4>
+            </p>
+        </StatefulCityModal>
         </Item>
-            </Link>
         </Grid>
       </Grid>
       </Box>

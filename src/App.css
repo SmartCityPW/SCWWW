@@ -145,6 +145,26 @@
   transition: all 0.1s ease;
 }
 
+.button-project {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8); /* Przykładowy kolor tła z 80% przezroczystości */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; /* Ustawia warstwę na wierzchu, aby zakryć Item */
+  color: white; /* Kolor tekstu wewnątrz modalu */
+  padding: 20px; /* Dostosuj padding według potrzeb */
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
 .caption {
   font-family: 'Helvetica Neue', sans-serif; 
   letter-spacing: -1px; 
@@ -167,7 +187,7 @@
 }
 
 .overlay:hover{
-  opacity:0.4;
+  opacity:0.7;
 }
 
 .overlay-text{
