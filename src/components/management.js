@@ -14,14 +14,19 @@ const useStyles = makeStyles(teamStyle);
 
 function Management() {
     const classes = useStyles();
+
+    const h2Styles = {
+        fontSize: '24px',
+        fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif",
+        fontWeight: '500'
+      };
+
     return (
-    <GridContainer style={{justifyContent:'space-around',
-    marginRight: "40px",
-    marginLeft: "40px"}}>
+    <GridContainer style={{justifyContent:'space-around', maxWidth:'1140px', margin: 'auto'}}>
         <GridItem>
-        <h2 className={classes.title}>zarząd</h2>
+        <h2 style={h2Styles}>Zarząd koła</h2>
         </GridItem>
-        <Person surname={mem.management.chair}></Person>
+        {/* <Person surname={mem.management.chair}></Person> */}
         <Person surname={mem.management.vice[0]}></Person>
         <Person surname={mem.management.vice[1]}></Person>
         <Person surname={mem.management.vice[2]}></Person>

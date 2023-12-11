@@ -8,11 +8,11 @@ import CardAvatar from "../components/Card/CardAvatar.js";
 import CardBody from "../components/Card/CardBody.js";
 import { makeStyles } from "@material-ui/core/styles";
 import teamStyle from "../assets/jss/material-kit-pro-react/views/aboutUsSections/teamStyle.js";
-import FaceMarc from "../assets/img/faces/marc.jpg";
+import FaceKendall from "../assets/img/faces/kendall.jpg";
 
 const useStyles = makeStyles(teamStyle);
 
-function Person(props) {
+function BigPerson(props) {
     const classes = useStyles();
 
     const h4Styles = {
@@ -30,20 +30,21 @@ function Person(props) {
     };
 
     return (
-          <GridItem md={3} sm={3} style={{maxWidth:'215px'}}>
+          <GridItem md={2} sm={2} style={{maxWidth:'50vw'}}>
             <Card profile plain style={{marginBottom: "30px",
               marginTop: "30px",}}>
               <CardAvatar profile plain>
-                  <img src={FaceMarc} alt="profile-pic" className={classes.img} />
+                  <img src={FaceKendall} alt="profile-pic" className={classes.img} />
               </CardAvatar>
               <CardBody plain>
+                {/* <h4 className={classes.cardTitle}>{props.surname}</h4> */}
                 <h4 style={h4Styles}>{props.surname}</h4>
                 {/* <h6 className={classes.textMuted}>{props.description}</h6> */}
-                <h6 style={h6Styles}>Projekt WWW</h6>
+                <h6 style={h6Styles}>Fajny projekt</h6>
               </CardBody>
             </Card>
           </GridItem>
     );
   }
   
-  export default Person;
+  export default BigPerson;
